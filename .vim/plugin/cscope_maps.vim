@@ -89,6 +89,7 @@ if has("cscope")
     " search will be displayed in the current window.  You can use CTRL-T to
     " go back to where you were before the search.  
     "
+    map <C-]> :cscope find g <C-R>=expand("<cword>")<CR><CR>
 
     nmap <C-\>s :cs find s <C-R>=expand("<cword>")<CR><CR>	
     nmap <C-\>g :cs find g <C-R>=expand("<cword>")<CR><CR>	

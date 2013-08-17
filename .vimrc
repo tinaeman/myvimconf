@@ -15,6 +15,8 @@ let g:winManagerWindowLayout="NERDTree|TagList"
 let g:winManagerWidth=50
 let g:Tlist_Show_One_File=1
 
+let python_hightlight_all = 1
+
 function! NERDTree_Start()
     exec 'NERDTree'
 endfunction
